@@ -9,9 +9,9 @@ $(document).ready( function(){
     });
 
     $(".img1").tooltip({
-        //title: "C++ Programming language",
+
         track: true,
-        show :{ effect:"bounce", duration: 2000},
+        show :{ effect:"bounce", duration: 2200},
         //hide :{ effect:"explode", duration: 3000}
     });
 })
