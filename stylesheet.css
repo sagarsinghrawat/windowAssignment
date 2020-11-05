@@ -29,6 +29,12 @@ h1{
     margin-bottom: 80px;
 }
 
+#div2{
+    background-color: mediumslateblue;
+    margin-top: 170px;
+    border-radius: 10px;
+}
+
 .innerpara{
     color: darkred;
     font-size: 18px;
@@ -41,11 +47,6 @@ h3{
     color: navy;
 }
 
-#div2{
-    background-color: mediumslateblue;
-    margin-top: 170px;
-    border-radius: 10px;
-}
 
 #name{
     margin-top: 250px;
