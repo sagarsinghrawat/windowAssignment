@@ -12,6 +12,20 @@ $(document).ready( function(){
 
         track: true,
         show :{ effect:"bounce", duration: 2200},
-        //hide :{ effect:"explode", duration: 3000}
-    });
+    });    
 })
+
+function myOverfunction(){
+    var prop = document.getElementById('heading1');
+    prop.style.color = "black"
+    prop.style.fontSize = "50px"
+    prop.style.textShadow = "2px 2px #FF0000"
+}
+
+function myOutfunction(){
+
+    var prop = document.getElementById('heading1');
+    prop.style.color = "navy"
+    prop.style.fontSize = "50px"
+    prop.style.textShadow = "0px 0px 0px"
+}
