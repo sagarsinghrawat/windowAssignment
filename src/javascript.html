@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body id="main3">
+    <main>
+        <div style="background-color: lightslategrey; border-radius: 10px; text-align: center; font-size: 40px;">
+            <h2>JAVASCRIPT</h2>
+        </div>
+        <p style="font-size: 20px; ;">JavaScript an object-oriented computer programming language commonly used to create interactive effects
+            within web browsers.</p>
+        <div style="background-color: lightslategrey; border-radius: 10px; font-size: 30px;">
+            <h2 style="margin: 10px 10px 10px 10px">The &lt;script&gt; Tag</h2>
+        </div>
+        <p style="font-size: 20px;">
+            In HTML, JavaScript code is inserted between &lt;script&gt; and &lt;/script&gt; tags.<br><br>
+            We can place any number of scripts in an HTML document.<br><br>
+            Scripts can be placed in the&lt;body&gt;, or in the &lt;head&gt; section of an HTML page, or in both.
+        </p>
+        <p style="font-size: 20px;">
+            <span style="font-size: 30px; color: black;"><b>JavaScript in&lt;head&gt;</b></span>
+            In this example, a JavaScript function is placed in the
+
+            &lt;head&gt; section of an HTML page.
+
+            The function is invoked (called) when a button is clicked:
+
+            Example
+        <pre class="box1">
+                 &lt;!DOCTYPE html &gt;
+                 &lt;html &gt;
+                 &lt;head &gt;
+                 &lt;script &gt;
+                function myFunction() {
+                  document.getElementById("demo").innerHTML = "Paragraph changed.";
+                }
+                 &lt;/script &gt;
+                 &lt;/head &gt;
+                 &lt;body &gt;
+                
+                 &lt;h1 &gt;A Web Page &lt;/h1 &gt;
+                 &lt;p id="demo" &gt;A Paragraph &lt;/p &gt;
+                 &lt;button type="button" onclick="myFunction()" &gt;Try it &lt;/button &gt;
+                
+                 &lt;/body &gt;
+                 &lt;/html &gt;
+                </pre>
+
+        </p>
+        <p style="font-size: 20px;">
+            <span style="font-size: 30px; color: black;"><b>JavaScript in &lt;body &gt;</b></span>
+            In this example, a JavaScript function is placed in the &lt;body &gt; section of an HTML page.
+
+            The function is invoked (called) when a button is clicked:
+
+            Example
+        <pre class="box1" style="font-size: 20px;">
+            &lt;!DOCTYPE html &gt;
+            &lt;html &gt;
+            &lt;body &gt;
+
+            &lt;h1 &gt;A Web Page &lt;/h1 &gt;
+            &lt;p id="demo" &gt;A Paragraph &lt;/p &gt;
+            &lt;button type="button" onclick="myFunction()" &gt;Try it &lt;/button &gt;
+
+            &lt;script &gt;
+            function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }
+            &lt;/script &gt;
+
+            &lt;/body &gt;
+            </pre>
+        </p>
+        <div id="bottom-style">
+            <a href="../index.html" style="color:black; font-size: 30px">Back to home page</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
