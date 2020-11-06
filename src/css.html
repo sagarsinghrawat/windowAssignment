@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+<body id="main3">
+    <main>
+        <div style="margin-top: 40px; background-color:  lightslategrey; border-radius: 10px; text-align: center; font-size: 50px;">
+            <b>CASCADING STYLESHEET</b>
+        </div>
+        <p style="font-size: 20px;"><b><abbr title="Cascading Style Sheets, ">Css</abbr></b> is a simply designed language intended to simplify
+            the
+            process
+            of making web pages presentable.<br> CSS allows you to apply styles to web pages. More importantly, CSS
+            enables
+            you
+            to do this independent of the HTML that makes up each web page.
+        </p>
+        
+        <div class="heading2">
+            <b>CSS Syntax</b>
+        </div>
+        <p class="para3">A CSS rule-set consists of a selector and a declaration block:</p>
+        <img src="../image/selector.gif" alt="CSS selector" style="margin-left:300px ;margin-right: 200px;">
+        
+        <div class="heading2">
+            <b>CSS Selectors</b>
+        </div> 
+        <p class="para3">
+            CSS selectors are used to "find" (or select) the HTML elements you want to style.
+        </p>
+        <div class="box2">
+            <p class="selector">
+                <b>Id Selector</b><br><br>
+                The id selector uses the id attribute of an HTML element to select a specific element.<br>
+
+                The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+
+                To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+                <pre>
+                    #para1 {
+                        text-align: center;
+                        color: red;
+                    }
+                </pre>
+            </p>
+        </div>
+
+        <div class="box2">
+            <p class="selector">
+                <b>Class Selector</b><br><br>
+                The class selector selects HTML elements with a specific class attribute.<br>
+                To select elements with a specific class, write a period (.) character, followed by the class name.
+            <pre>
+                .center {
+                text-align: center;
+                color: red;
+                }
+            </pre>
+            </p>
+        </div>
+
+        <div class="box2">
+            <p class="selector"> 
+                <b>Universal Selector</b><br><br>
+                The universal selector (*) selects all HTML elements on the page.
+            <pre>
+                * {
+                text-align: center;
+                color: blue;
+                }
+                </pre>
+
+            </p>
+        </div>
+
+        <div class="box2">
+            <p class="selector">
+                <b>Grouping Selector</b><br><br>
+                The grouping selector selects all the HTML elements with the same style definitions.<br>
+                Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+            <pre>
+                h1, h2, p {
+                    text-align: center;
+                    color: red;
+                }
+            </pre>
+            &nbsp;&nbsp;&nbsp; It will be better to group the selectors, to minimize the code.
+            To group selectors, separate each selector with a comma.</p>   
+        </div>
+
+        <div id="bottom-style">
+            <a href="../index.html" style="color:black; font-size: 30px">Back to home page</a>
+        </div>
+    </main>
+</body>
+</html>
